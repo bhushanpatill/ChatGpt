@@ -1,0 +1,97 @@
+ .SignIn-Container{
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    /* align-items:center; */
+    line-height:20px;
+    z-index:10;
+    position:absolute;
+    background: var(--color-bg);
+    color: #fff;
+    left:50%;
+    top:50%;
+    height:50%;
+    min-width:40%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+}
+
+.SignIn-title h1{
+    margin-top:1rem;
+    text-align:center;
+    font-family: var(--font-family);
+
+}
+
+.SignIn-paragraph{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    text-align:center;
+
+}
+
+.SignIn-paragraph p {
+    text-align:center;
+    font-family: var(--font-family);
+    font-size:15px;
+}
+
+.SignIn-inputs{
+    display:flex;
+    flex-direction:column;
+
+}
+
+.SignIn-inputs input{
+    padding:1rem;
+    font-family: var(--font-family);
+    font-size: 18px;
+    margin-left:2rem;
+    margin-right:2rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border-radius:10px;
+    border:none;
+    outline-style:none;
+    box-shadow:none;
+}
+
+.SignIn-Button{
+    display:flex;
+    justify-content:center;
+    margin-top:1rem;
+
+}
+
+.SignIn-Button button{
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.CrossSignIn{
+    position:absolute;
+    /* top:50px;
+    left:50px; */
+    left:70%;
+    top:20%;
+    cursor:pointer;
+
+}
+
+
+
+ 

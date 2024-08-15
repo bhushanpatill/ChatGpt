@@ -1,0 +1,93 @@
+.SignUp-Container{
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    /* align-items:center; */
+    line-height:20px;
+    z-index:10;
+    position:absolute;
+    background: var(--color-bg);
+    color: #fff;
+    left:50%;
+    top:50%;
+    height:60%;
+    min-width:40%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+}
+
+.SignUp-title h1{
+    margin-top:1rem;
+    text-align:center;
+    font-family: var(--font-family);
+
+}
+
+.SignUp-paragraph{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    text-align:center;
+}
+
+.SignUp-paragraph p{
+    font-family: var(--font-family);
+    font-size:15px;
+}
+
+.SignUp-inputs{
+    display:flex;
+    flex-direction:column;
+
+}
+
+.SignUp-inputs input{
+    padding:1rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border-radius:10px;
+    border:none;
+    outline-style:none;
+    box-shadow:none;
+    font-family: var(--font-family);
+    font-size:18px;
+}
+
+.SignUp-Button{
+    display:flex;
+    justify-content:center;
+    margin-top:1rem;
+
+}
+
+.SignUp-Button button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.CrossSign{
+    position:absolute;
+    /* top:50px;
+    left:50px; */
+    left:70%;
+    top:15%;
+    cursor:pointer;
+}
+
+
+
